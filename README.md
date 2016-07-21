@@ -35,22 +35,22 @@ Wayne's Trie implementation was taken verbatim, more or less...with a couple exc
 The censorWord function will search for the given word, and if it's a "dirty" word because it's in the list, it's censored.
 
 The censor function steps through the whole text.
-// The basic algorithm is:
-// start at the length of the longest word in the trie (or the count of the letter left)
-// Get that many letters from the remaining text.
-// If that's a word to censor, censor it, and remove it from the letters to process
-// If that's not, then look at one letter less, and try again.
-// If the search string is one character long, and a naughty word hasn't been found,
-//      then add that character and continue on.
+The basic algorithm is:
+1. start at the length of the longest word in the trie (or the count of the letter left)
+2. Get that many letters from the remaining text.
+3. If that's a word to censor, censor it, and remove it from the letters to process
+4. If that's not, then look at one letter less, and try again.
+5. If the search string is one character long, and a naughty word hasn't been found,
+    then add that character and continue on.
 
 In this way, you can have curse words that have embedded spaces, punctuation, newlines, whatever in them.  It should even handle unicode characters if your censorring needs are a bit more exotic.
 
 Limitations:
-1) Wayne's trie implementation is very straightforward.  It could be improved speed-wise, I feel, by inserting in alphabetical order in a given noe, and then implementing a binary search when searching the children of a given node.
+1. Wayne's trie implementation is very straightforward.  It could be improved speed-wise, I feel, by inserting in alphabetical order in a given noe, and then implementing a binary search when searching the children of a given node.
 
-2) a trie structure is a fairly compact way to represent a repository of words...this implementation is a little free with memory. 'final' is a bit...not sure it's necessary to store the level, and it might be advantageous to store a character as opposed to a string.  In the spirit of readablity, all of this is ignored.
+2. a trie structure is a fairly compact way to represent a repository of words...this implementation is a little free with memory. 'final' is a bit...not sure it's necessary to store the level, and it might be advantageous to store a character as opposed to a string.  In the spirit of readablity, all of this is ignored.
 
-3) Both the censor and censorWord functions rather fell out fully formed instead of growing towards them using TDD. I had a little time to consider the algorithm, so I knew what I was aiming for before I started typing. I feel this was a mistake as the censor function is quite long, and not particularly readable.  I'll likely revisit this and do it in stages using TDD.
+3. Both the censor and censorWord functions rather fell out fully formed instead of growing towards them using TDD. I had a little time to consider the algorithm, so I knew what I was aiming for before I started typing. I feel this was a mistake as the censor function is quite long, and not particularly readable.  I'll likely revisit this and do it in stages using TDD.
 
 // Note, used the concepts from these web pages:
 // http://crunchybagel.com/building-command-line-tools-with-swift/

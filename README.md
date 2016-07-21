@@ -6,6 +6,7 @@ https://www.reddit.com/r/dailyprogrammer/comments/106gse/9202012_challenge_100_i
 
 I'll copy a bit below just for completeness:
 ----------------------------------
+```
 Write a program called 'censor' that takes in one argument on the command line. This argument is the filename of a newline-separated wordlist of profanity such as
 http://urbanoalvarez.es/blog/2008/04/04/bad-words-list/ or
 http://www.bannedwordlist.com/SwearWordResources.htm
@@ -14,6 +15,7 @@ For example, the 'censored' version of 'peter' would be 'p****'
 Example:
 >echo 'You jerkface!' | censor badwords.txt
 You j***face!
+```
 ----------------------------------
 
 Humans being what they are, we have a wealth of curse words.  The two referenced above no longer are valid.

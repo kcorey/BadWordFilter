@@ -57,6 +57,8 @@ Limitations:
 
 3. Both the censor and censorWord functions rather fell out fully formed instead of growing towards them using TDD. I had a little time to consider the algorithm, so I knew what I was aiming for before I started typing. I feel this was a mistake as the censor function is quite long, and not particularly readable.  I'll likely revisit this and do it in stages using TDD.
 
+4. This doesn't quite, at the moment, handle reading the filename of the badwords from the command line, nor piping of input in.  I'll revisit this later so as to complete the requirements.
+5. 
 // Note, used the concepts from these web pages:
 // http://crunchybagel.com/building-command-line-tools-with-swift/
 // http://waynewbishop.com/swift/tries/

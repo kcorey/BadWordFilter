@@ -18,7 +18,7 @@ You j***face!
 ```
 ----------------------------------
 
-Humans being what they are, we have a wealth of curse words.  The two referenced above no longer are valid.
+Humans being what they are, we have a wealth of curse words.  The two links referenced above in the kata are no longer valid.
 
 At the time of writing, this link was valid:
 http://www.bannedwordlist.com/lists/swearWords.txt

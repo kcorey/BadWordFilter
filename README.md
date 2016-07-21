@@ -28,9 +28,9 @@ https://laughingsquid.com/the-full-list-of-bad-words-banned-by-google/
 My approach to this was to realise that there'd be a *lot* of text matching.  Having read about Tries before, I thought this might be a really good chance to play with them.
 
 Wayne's Trie implementation was taken verbatim, more or less...with a couple exceptions:
-1) findWord cannot return a nil now.  If no words were found, it returns an empty length array.
-2) censorWord and censor functions were added.
-3) The formatting has changed a bit to reflect the current style where I work.
+1. findWord cannot return a nil now.  If no words were found, it returns an empty length array.
+2. censorWord and censor functions were added.
+3. The formatting has changed a bit to reflect the current style where I work.
 
 The censorWord function will search for the given word, and if it's a "dirty" word because it's in the list, it's censored.
 

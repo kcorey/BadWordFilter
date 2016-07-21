@@ -37,6 +37,7 @@ The censorWord function will search for the given word, and if it's a "dirty" wo
 
 The censor function steps through the whole text.
 The basic algorithm is:
+
 1. start at the length of the longest word in the trie (or the count of the letter left)
 2. Get that many letters from the remaining text.
 3. If that's a word to censor, censor it, and remove it from the letters to process
@@ -47,7 +48,8 @@ The basic algorithm is:
 In this way, you can have curse words that have embedded spaces, punctuation, newlines, whatever in them.  It should even handle unicode characters if your censorring needs are a bit more exotic.
 
 Limitations:
-1. Wayne's trie implementation is very straightforward.  It could be improved speed-wise, I feel, by inserting in alphabetical order in a given noe, and then implementing a binary search when searching the children of a given node.
+
+1. Wayne's trie implementation is very straightforward.  It could be improved speed-wise, I feel, by inserting in alphabetical order in a given node, and then implementing a binary search when searching the children of a given node.
 
 2. a trie structure is a fairly compact way to represent a repository of words...this implementation is a little free with memory. 'final' is a bit...not sure it's necessary to store the level, and it might be advantageous to store a character as opposed to a string.  In the spirit of readablity, all of this is ignored.
 

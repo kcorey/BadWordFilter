@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC97E3201D3EA2ED00BB0937 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E31F1D3EA2ED00BB0937 /* main.swift */; };
+		BC97E3281D3EA7D900BB0937 /* show.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3271D3EA7D900BB0937 /* show.swift */; };
+		BC97E32C1D3EA97E00BB0937 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E32B1D3EA97E00BB0937 /* TrieNode.swift */; };
+		BC97E32E1D3EA9FA00BB0937 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E32D1D3EA9FA00BB0937 /* Trie.swift */; };
+		BC97E3591D3EAC1500BB0937 /* BadWordsTestingBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3581D3EAC1500BB0937 /* BadWordsTestingBundle.swift */; };
+		BC97E3661D3EAC4700BB0937 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3651D3EAC4700BB0937 /* main.swift */; };
+		BC97E36B1D3EAC5300BB0937 /* BadWordTester in Resources */ = {isa = PBXBuildFile; fileRef = BC97E3631D3EAC4700BB0937 /* BadWordTester */; };
+		BC97E36D1D3EACD900BB0937 /* TrieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3341D3EAAFF00BB0937 /* TrieTests.swift */; };
+		BC97E37A1D3EB0CE00BB0937 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3761D3EB04100BB0937 /* String.swift */; };
+		BC97E37B1D3EB1DD00BB0937 /* badwords.txt in Resources */ = {isa = PBXBuildFile; fileRef = BC97E3261D3EA54700BB0937 /* badwords.txt */; };
+		BC97E37D1D3EB22E00BB0937 /* show.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3271D3EA7D900BB0937 /* show.swift */; };
+		BC97E37E1D3EB22E00BB0937 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E32B1D3EA97E00BB0937 /* TrieNode.swift */; };
+		BC97E37F1D3EB22E00BB0937 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E32D1D3EA9FA00BB0937 /* Trie.swift */; };
+		BC97E3801D3EB22E00BB0937 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3761D3EB04100BB0937 /* String.swift */; };
+		BC97E3811D3EB24300BB0937 /* show.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3271D3EA7D900BB0937 /* show.swift */; };
+		BC97E3821D3EB24300BB0937 /* TrieNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E32B1D3EA97E00BB0937 /* TrieNode.swift */; };
+		BC97E3831D3EB24300BB0937 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E32D1D3EA9FA00BB0937 /* Trie.swift */; };
+		BC97E3841D3EB24300BB0937 /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC97E3761D3EB04100BB0937 /* String.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BC97E31A1D3EA2ED00BB0937 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+		BC97E3611D3EAC4700BB0937 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BC97E31C1D3EA2ED00BB0937 /* BadWordFilter */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BadWordFilter; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC97E31F1D3EA2ED00BB0937 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BC97E3261D3EA54700BB0937 /* badwords.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = badwords.txt; sourceTree = "<group>"; };
+		BC97E3271D3EA7D900BB0937 /* show.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = show.swift; sourceTree = "<group>"; };
+		BC97E32B1D3EA97E00BB0937 /* TrieNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TrieNode.swift; sourceTree = "<group>"; };
+		BC97E32D1D3EA9FA00BB0937 /* Trie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		BC97E3341D3EAAFF00BB0937 /* TrieTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TrieTests.swift; path = ../Testing/TrieTests.swift; sourceTree = "<group>"; };
+		BC97E34B1D3EAB6700BB0937 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BC97E3561D3EAC1500BB0937 /* BadWordsTestingBundle.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BadWordsTestingBundle.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC97E3581D3EAC1500BB0937 /* BadWordsTestingBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadWordsTestingBundle.swift; sourceTree = "<group>"; };
+		BC97E35A1D3EAC1500BB0937 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC97E3631D3EAC4700BB0937 /* BadWordTester */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BadWordTester; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC97E3651D3EAC4700BB0937 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		BC97E3761D3EB04100BB0937 /* String.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		BC97E3851D415CD000BB0937 /* ReadMe */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ReadMe; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC97E3191D3EA2ED00BB0937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC97E3531D3EAC1500BB0937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC97E3601D3EAC4700BB0937 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC97E3131D3EA2ED00BB0937 = {
+			isa = PBXGroup;
+			children = (
+				BC97E31E1D3EA2ED00BB0937 /* BadWordFilter */,
+				BC97E34A1D3EAB6700BB0937 /* BadWordCLTesting */,
+				BC97E3571D3EAC1500BB0937 /* BadWordsTestingBundle */,
+				BC97E3641D3EAC4700BB0937 /* BadWordTester */,
+				BC97E31D1D3EA2ED00BB0937 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC97E31D1D3EA2ED00BB0937 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC97E31C1D3EA2ED00BB0937 /* BadWordFilter */,
+				BC97E3561D3EAC1500BB0937 /* BadWordsTestingBundle.xctest */,
+				BC97E3631D3EAC4700BB0937 /* BadWordTester */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC97E31E1D3EA2ED00BB0937 /* BadWordFilter */ = {
+			isa = PBXGroup;
+			children = (
+				BC97E31F1D3EA2ED00BB0937 /* main.swift */,
+				BC97E3261D3EA54700BB0937 /* badwords.txt */,
+				BC97E3271D3EA7D900BB0937 /* show.swift */,
+				BC97E32B1D3EA97E00BB0937 /* TrieNode.swift */,
+				BC97E32D1D3EA9FA00BB0937 /* Trie.swift */,
+				BC97E3761D3EB04100BB0937 /* String.swift */,
+				BC97E3851D415CD000BB0937 /* ReadMe */,
+			);
+			path = BadWordFilter;
+			sourceTree = "<group>";
+		};
+		BC97E34A1D3EAB6700BB0937 /* BadWordCLTesting */ = {
+			isa = PBXGroup;
+			children = (
+				BC97E34B1D3EAB6700BB0937 /* main.swift */,
+			);
+			path = BadWordCLTesting;
+			sourceTree = "<group>";
+		};
+		BC97E3571D3EAC1500BB0937 /* BadWordsTestingBundle */ = {
+			isa = PBXGroup;
+			children = (
+				BC97E3581D3EAC1500BB0937 /* BadWordsTestingBundle.swift */,
+				BC97E35A1D3EAC1500BB0937 /* Info.plist */,
+			);
+			path = BadWordsTestingBundle;
+			sourceTree = "<group>";
+		};
+		BC97E3641D3EAC4700BB0937 /* BadWordTester */ = {
+			isa = PBXGroup;
+			children = (
+				BC97E3651D3EAC4700BB0937 /* main.swift */,
+				BC97E3341D3EAAFF00BB0937 /* TrieTests.swift */,
+			);
+			path = BadWordTester;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC97E31B1D3EA2ED00BB0937 /* BadWordFilter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC97E3231D3EA2ED00BB0937 /* Build configuration list for PBXNativeTarget "BadWordFilter" */;
+			buildPhases = (
+				BC97E3181D3EA2ED00BB0937 /* Sources */,
+				BC97E3191D3EA2ED00BB0937 /* Frameworks */,
+				BC97E31A1D3EA2ED00BB0937 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadWordFilter;
+			productName = BadWordFilter;
+			productReference = BC97E31C1D3EA2ED00BB0937 /* BadWordFilter */;
+			productType = "com.apple.product-type.tool";
+		};
+		BC97E3551D3EAC1500BB0937 /* BadWordsTestingBundle */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC97E35B1D3EAC1500BB0937 /* Build configuration list for PBXNativeTarget "BadWordsTestingBundle" */;
+			buildPhases = (
+				BC97E3521D3EAC1500BB0937 /* Sources */,
+				BC97E3531D3EAC1500BB0937 /* Frameworks */,
+				BC97E3541D3EAC1500BB0937 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadWordsTestingBundle;
+			productName = BadWordsTestingBundle;
+			productReference = BC97E3561D3EAC1500BB0937 /* BadWordsTestingBundle.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BC97E3621D3EAC4700BB0937 /* BadWordTester */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC97E3671D3EAC4700BB0937 /* Build configuration list for PBXNativeTarget "BadWordTester" */;
+			buildPhases = (
+				BC97E35F1D3EAC4700BB0937 /* Sources */,
+				BC97E3601D3EAC4700BB0937 /* Frameworks */,
+				BC97E3611D3EAC4700BB0937 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BadWordTester;
+			productName = BadWordTester;
+			productReference = BC97E3631D3EAC4700BB0937 /* BadWordTester */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC97E3141D3EA2ED00BB0937 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Ken Corey";
+				TargetAttributes = {
+					BC97E31B1D3EA2ED00BB0937 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BC97E3551D3EAC1500BB0937 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					BC97E3621D3EAC4700BB0937 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+				};
+			};
+			buildConfigurationList = BC97E3171D3EA2ED00BB0937 /* Build configuration list for PBXProject "BadWordFilter" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC97E3131D3EA2ED00BB0937;
+			productRefGroup = BC97E31D1D3EA2ED00BB0937 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC97E31B1D3EA2ED00BB0937 /* BadWordFilter */,
+				BC97E3551D3EAC1500BB0937 /* BadWordsTestingBundle */,
+				BC97E3621D3EAC4700BB0937 /* BadWordTester */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC97E3541D3EAC1500BB0937 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC97E36B1D3EAC5300BB0937 /* BadWordTester in Resources */,
+				BC97E37B1D3EB1DD00BB0937 /* badwords.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC97E3181D3EA2ED00BB0937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC97E3281D3EA7D900BB0937 /* show.swift in Sources */,
+				BC97E32E1D3EA9FA00BB0937 /* Trie.swift in Sources */,
+				BC97E37A1D3EB0CE00BB0937 /* String.swift in Sources */,
+				BC97E32C1D3EA97E00BB0937 /* TrieNode.swift in Sources */,
+				BC97E3201D3EA2ED00BB0937 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC97E3521D3EAC1500BB0937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC97E3841D3EB24300BB0937 /* String.swift in Sources */,
+				BC97E3831D3EB24300BB0937 /* Trie.swift in Sources */,
+				BC97E3811D3EB24300BB0937 /* show.swift in Sources */,
+				BC97E3591D3EAC1500BB0937 /* BadWordsTestingBundle.swift in Sources */,
+				BC97E36D1D3EACD900BB0937 /* TrieTests.swift in Sources */,
+				BC97E3821D3EB24300BB0937 /* TrieNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC97E35F1D3EAC4700BB0937 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC97E3801D3EB22E00BB0937 /* String.swift in Sources */,
+				BC97E37F1D3EB22E00BB0937 /* Trie.swift in Sources */,
+				BC97E37D1D3EB22E00BB0937 /* show.swift in Sources */,
+				BC97E3661D3EAC4700BB0937 /* main.swift in Sources */,
+				BC97E37E1D3EB22E00BB0937 /* TrieNode.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BC97E3211D3EA2ED00BB0937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC97E3221D3EA2ED00BB0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC97E3241D3EA2ED00BB0937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BC97E3251D3EA2ED00BB0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC97E3361D3EAB1400BB0937 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.5;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Testing;
+		};
+		BC97E3371D3EAB1400BB0937 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Testing;
+		};
+		BC97E35C1D3EAC1500BB0937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BadWordsTestingBundle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdlab.BadWordsTestingBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC97E35D1D3EAC1500BB0937 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BadWordsTestingBundle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdlab.BadWordsTestingBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Testing;
+		};
+		BC97E35E1D3EAC1500BB0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = BadWordsTestingBundle/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.crowdlab.BadWordsTestingBundle;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BC97E3681D3EAC4700BB0937 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BC97E3691D3EAC4700BB0937 /* Testing */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Testing;
+		};
+		BC97E36A1D3EAC4700BB0937 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC97E3171D3EA2ED00BB0937 /* Build configuration list for PBXProject "BadWordFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC97E3211D3EA2ED00BB0937 /* Debug */,
+				BC97E3361D3EAB1400BB0937 /* Testing */,
+				BC97E3221D3EA2ED00BB0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC97E3231D3EA2ED00BB0937 /* Build configuration list for PBXNativeTarget "BadWordFilter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC97E3241D3EA2ED00BB0937 /* Debug */,
+				BC97E3371D3EAB1400BB0937 /* Testing */,
+				BC97E3251D3EA2ED00BB0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC97E35B1D3EAC1500BB0937 /* Build configuration list for PBXNativeTarget "BadWordsTestingBundle" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC97E35C1D3EAC1500BB0937 /* Debug */,
+				BC97E35D1D3EAC1500BB0937 /* Testing */,
+				BC97E35E1D3EAC1500BB0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BC97E3671D3EAC4700BB0937 /* Build configuration list for PBXNativeTarget "BadWordTester" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC97E3681D3EAC4700BB0937 /* Debug */,
+				BC97E3691D3EAC4700BB0937 /* Testing */,
+				BC97E36A1D3EAC4700BB0937 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC97E3141D3EA2ED00BB0937 /* Project object */;
+}
